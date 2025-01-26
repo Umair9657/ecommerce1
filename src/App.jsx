@@ -8,7 +8,6 @@ import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';
 import CartPage from './pages/CartPage';
 import ProductCard from './components/ProductCard';
-
 const App = () => {
   const [cart, setCart] = useState([]);
 
