@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import ProductsPage from './pages/ProductsPage';
 import ContactPage from './pages/ContactPage';
 import LoginPage from './pages/LoginPage';
-
+import HomePage from './pages/HomePage';
 import CartPage from './pages/CartPage';
 import ProductCard from './components/ProductCard';
 
@@ -29,7 +29,7 @@ const App = () => {
             path="/products"
             element={<ProductsPage onAddToCart={handleAddToCart} />}
           />
-       
+        
           <Route path='/products/:id' element={<ProductCard />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} />
